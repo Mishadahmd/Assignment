@@ -22,6 +22,7 @@ public class TestController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("AKS Test Application is running!");
+        return Ok("AKS !");
     }
 }
+
